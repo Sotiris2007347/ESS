@@ -200,23 +200,10 @@
                 font-family: Courier;
             }
 
-            #Equipment_list{
-                width: 50%;
-            }
-
             main > div > div > ul > li{
                 padding-bottom: 20px;
 
                 font-size: 20px;
-            }
-
-            #diagram{
-                position: absolute;
-                top: 1020px;
-                right: 10%;
-                width: 35%;
-                height: 70%;
-                z-index: -1;
             }
 
             table{
@@ -245,6 +232,11 @@
                 content: "";
                 display: table;
                 clear: both;
+            }
+
+            #diagram{
+                margin-top: 7%;
+                margin-left: 15%;
             }
 
             iframe{
@@ -286,7 +278,7 @@
     </head>
 <body>
     <header>
-        <img id="logo" src="ESS_Logo.jpg" alt="ESS_logo">
+        <img id="logo" src="C:\Users\skalo\OneDrive\Uni\CM1101\Webiste\ESS_Logo.jpg" alt="ESS_logo">
         <button type="submit">Submit</button>
         <input type= "text" name ="searchfield" placeholder="Search...">
 
@@ -330,41 +322,48 @@
 
             <h2>Equipment</h2>
 
-            <div id="Equipment_list">
-                <ul>
-                    <li>
-                        <strong>Primary mask and backup mask</strong> - Although any scuba mask is adequate, tec divers prefer compact masks for minimum resistance in the water. A backup mask is carried in a pocket in case of loss or damage to the primary mask.
-                    </li>
+            <div class="row">
 
-                    <li>
-                        <strong>Fins</strong> - Tec divers often use dry suits, requiring large style, open-heel adjustable fins.
-                    </li>
+                <div class="column">
+            
+                    <div id="Equipment_list">
+                        <ul>
+                            <li>
+                                <strong>Primary mask and backup mask</strong> - Although any scuba mask is adequate, tec divers prefer compact masks for minimum resistance in the water. A backup mask is carried in a pocket in case of loss or damage to the primary mask.
+                            </li>
 
-                    <li>
-                        <strong>Wing-typed BCD and harness</strong> - A high capacity BCD with a backup gas bladder mounts between the harness and cylinder. The backup bladder is required because a tec diver may be too heavy to swim to the surface if the main BCD fails. The harness is a shoulder, waist and crotch strap assembly that holds tanks to the tec diver’s back, with D-rings mounted on the shoulders and at the waist for clipping equipment.
-                    </li>
+                            <li>
+                                <strong>Fins</strong> - Tec divers often use dry suits, requiring large style, open-heel adjustable fins.
+                            </li>
 
-                    <li>
-                        <strong>Primary and secondary regulator</strong> - The primary regulator has a two-metre/seven-foot hose for sharing gas with a teammate in an emergency. The secondary regulator is independent for use in case of malfunction in the primary regulator. The secondary is also used when sharing gas with a teammate via the primary regulator.
-                    </li>
+                            <li>
+                                <strong>Wing-typed BCD and harness</strong> - A high capacity BCD with a backup gas bladder mounts between the harness and cylinder. The backup bladder is required because a tec diver may be too heavy to swim to the surface if the main BCD fails. The harness is a shoulder, waist and crotch strap assembly that holds tanks to the tec diver’s back, with D-rings mounted on the shoulders and at the waist for clipping equipment.
+                            </li>
 
-                    <li>
-                        <strong>Twin cylinders, decompression cylinders/stage bottles</strong> - High-capacity cylinders hold high-pressure compressed air, enriched air or trimix depending upon dive requirements. An independent decompression cylinder and regulator is clipped to a harness on the side. Extra tanks are used to extend dive time and/or to carry a gas for optimizing decompression. Often, two cylinders are carried.
-                    </li>
+                            <li>
+                                <strong>Primary and secondary regulator</strong> - The primary regulator has a two-metre/seven-foot hose for sharing gas with a teammate in an emergency. The secondary regulator is independent for use in case of malfunction in the primary regulator. The secondary is also used when sharing gas with a teammate via the primary regulator.
+                            </li>
 
-                    <li>
-                        <strong>Dry suit</strong> - Provides insulation for a comfortable dive over a long duration.
-                    </li>
+                            <li>
+                                <strong>Twin cylinders, decompression cylinders/stage bottles</strong> - High-capacity cylinders hold high-pressure compressed air, enriched air or trimix depending upon dive requirements. An independent decompression cylinder and regulator is clipped to a harness on the side. Extra tanks are used to extend dive time and/or to carry a gas for optimizing decompression. Often, two cylinders are carried.
+                            </li>
 
-                    <li>
-                        <strong>Other equipment</strong> - Compass, slate, delayed surface marker buoy (DSMB), emergency signaling devices, backup dive tables, Z-knife, shears, safety reel, and lift bag.
-                    </li>
-                </ul>
+                            <li>
+                                <strong>Dry suit</strong> - Provides insulation for a comfortable dive over a long duration.
+                            </li>
+
+                            <li>
+                                <strong>Other equipment</strong> - Compass, slate, delayed surface marker buoy (DSMB), emergency signaling devices, backup dive tables, Z-knife, shears, safety reel, and lift bag.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img id="diagram" src="https://www.eastwooddivers.co.uk/images/divekit.jpg" alt="Scouba diving equipment diagram">
+                </div>
+
             </div>
-
-            <aside>
-                <img id="diagram" src="https://www.eastwooddivers.co.uk/images/divekit.jpg" alt="Scouba diving equipment diagram">
-            </aside>
         
             <h2>ESS scuba diving training lessons timetable</h2>
 
