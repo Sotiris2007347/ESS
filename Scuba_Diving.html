@@ -233,12 +233,23 @@
 
             tr:nth-child(even) {
                 background-color: #dddddd;
-            }   
+            } 
+
+            .column {
+                float: left;
+                width: 40%;
+                margin-left: 5%;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
 
             iframe{
-                position: absolute;
-                right: 10%;
-                top: 209%;
+                float: right;
+                margin-top: 45px;
             }
 
     /*End of main styling*/
@@ -275,7 +286,7 @@
     </head>
 <body>
     <header>
-        <img id="logo" src="ESS_Logo.jpg" alt="ESS Logo">
+        <img id="logo" src="C:\Users\skalo\OneDrive\Uni\CM1101\Webiste\ESS_Logo.jpg" alt="ESS_logo">
         <button type="submit">Submit</button>
         <input type= "text" name ="searchfield" placeholder="Search...">
 
@@ -357,52 +368,62 @@
         
             <h2>ESS scuba diving training lessons timetable</h2>
 
-            <table>
-                <tr>
-                    <th>Day</th>
-                    <th>Time</th>
-                </tr>
-    
-                <tr>
-                    <td>Monday</td>
-                    <td>15:00 - 17:00</td>
-                </tr>
-    
-                <tr>
-                    <td>Tuesday</td>
-                    <td>15:00 - 17:00</td>
-                </tr>
-    
-                <tr>
-                    <td>Wednesday</td>
-                    <td>15:00 - 17:00</td>
-                </tr>
-    
-                <tr>
-                    <td>Thursday</td>
-                    <td>15:00 - 17:00</td>
-                </tr>
-    
-                <tr>
-                    <td>Friday</td>
-                    <td>15:00 - 17:00</td>
-                </tr>
-    
-                <tr>
-                    <td>Saturday</td>
-                    <td>09:00 - 11:00</td>
-                </tr>
-    
-                <tr>
-                    <td>Sunday</td>
-                    <td>09:00 - 11:00</td>
-                </tr>
-    
-            </table>
-        
+            <div class="row">
+                <div class="column">
+                    <table>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+            
+                        <tr>
+                            <td>Monday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Thursday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Friday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Saturday</td>
+                            <td>09:00 - 11:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Sunday</td>
+                            <td>09:00 - 11:00</td>
+                        </tr>
+            
+                    </table>
+
+                </div>
+
+                <div class="column">
+
+                    <iframe width="120%" height="49.5%" src="https://www.youtube.com/embed/FH8H76QTgtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
         </div>         
         
-        <iframe width="50%" height="50%" src="https://www.youtube.com/embed/FH8H76QTgtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
         
     </main>
 
